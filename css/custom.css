@@ -41,7 +41,7 @@
 33. 404 Error Page css
 34. Responsive css
 -------------------------------------------------------------------------------------- */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /************************************/
 /*** 	 01. Global Variables	  ***/
 /************************************/
@@ -106,7 +106,7 @@ h4,
 h5,
 h6{
 	margin :0;
-	font-family: var(--accent-font);
+	font-family: "Montserrat" !important;
 	font-weight: 400;
 	line-height: 1.2em;
 	color: var(--primary-color);
@@ -234,6 +234,7 @@ body{
     overflow: hidden;
     z-index: 0;
 	text-transform: uppercase;
+	box-shadow: rgba(195, 10, 10, 0.37) 0px 13px 27px -5px, rgba(195, 10, 10, 0.32) 0px 8px 16px -8px;
 }
 
 
@@ -420,9 +421,10 @@ body{
 }
 
 .section-title h2{
-	font-size: 39px;
+	font-size: 56px;
 	margin-bottom: 0;
 	cursor: none;
+	font-family:"Montserrat" ;
 }
 
 .section-title h1 span,
@@ -872,7 +874,7 @@ header.main-header .header-sticky.active{
 	border-top: 1px solid var(--dark-divider-color);
 	margin-top: 30px;
 	padding-top: 30px;
-	font-size: 19px;
+	font-size: 24px;
 }
 
 .hero-content .section-title h3{
@@ -1713,7 +1715,7 @@ letter-spacing: 6px;
 
 .how-work-stpes-box{
 	    display: flex;
-    align-items: center;
+  
     justify-content: center;
     flex-direction: column;
 	
@@ -7044,8 +7046,8 @@ letter-spacing: 6px;
 }
 
 .how-it-work {
-  background-image:linear-gradient(#0000000c,#0000000e) ,  url('../images/mountain_page-0001.jpg');
-width: 100%;
+   background-image:linear-gradient(#302d2d5a,#00000070) ,  url('../images/himalaya.jpg');
+width: 100%; 
   background-size: cover;
   background-position: center;
  
@@ -7063,8 +7065,8 @@ width: 100%;
 }
 
 .header-search {
-  background-color: transparent;
-  border: 1px solid #ced4da;
+ background-color:#000000bf;
+    border: 2px solid #ffffff;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   width: 100%;
@@ -7084,14 +7086,14 @@ width: 100%;
 }
 
 .search-input::placeholder {
-  color: #6c757d;
+  color: #feffff;
 }
 
 .search-icon {
   position: absolute;
   right: 1rem;
   font-size: 1.2rem;
-  color: #6c757d;
+  color: #ffffff;
   pointer-events: none;
   transition: color 0.2s;
 }
@@ -7129,8 +7131,8 @@ width: 100%;
     PADDING: 5PX;
     padding-left: 18px;
     border-radius: 11px;
-	border: 1px solid black;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+	border: 1px solid rgb(214, 211, 211);
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .certification-section {
@@ -7170,13 +7172,14 @@ width: 100%;
 
 .certification-logo img {
 
-  object-fit: contain;
-  filter: grayscale(100%);
+  object-fit: cover;
+ fill: none !important;
   transition: filter 0.3s;
+  padding: 40px;
 }
 
 .certification-logo:hover img {
-  filter: none;
+ 
 }
 
 @keyframes scrollCerts {
@@ -7196,16 +7199,7 @@ width: 100%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-.certification-logo img {
-  
-  object-fit: contain;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
 
-.certification-logo:hover img {
-  filter: none;
-}
 
 /* Top-left corner */
 .certification-logo::before {
