@@ -548,7 +548,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li a:hover,
 .main-menu ul li a:focus{
-	color: #e5c57c;
+	color: #aea17e;
 }
 
 .main-menu ul ul{
@@ -1230,7 +1230,7 @@ letter-spacing: 6px;
     font-size: 21px;
     font-weight: 600;
     font-family: sans-serif;
-    font-style: italic;
+   
 }
 
 .service-content p{
