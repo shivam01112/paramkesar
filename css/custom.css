@@ -1224,7 +1224,11 @@ letter-spacing: 6px;
 }
 
 .service-content h3 a{
-	color: inherit;
+		color: inherit;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-style: italic;
 }
 
 .service-content p{
@@ -7046,7 +7050,7 @@ letter-spacing: 6px;
 }
 
 .how-it-work {
-   background-image:linear-gradient(#302d2d5a,#00000070) ,  url('../images/himalaya.jpg');
+   /* background-image:linear-gradient(#302d2d5a,#00000070) ,  url('../images/himalaya.jpg'); */
 width: 100%; 
   background-size: cover;
   background-position: center;
@@ -7120,7 +7124,9 @@ width: 100%;
 
 .post-item-content h3{
 	    font-size: 23px;
-    font-family: sans-serif;
+   
+	font-family: serif !important;
+  font-style: italic;
 }
 .how-work-step{
 	    visibility: visible;
