@@ -2359,6 +2359,7 @@ letter-spacing: 6px;
 .faq-accordion .accordion-header .accordion-button.collapsed{
 	color: var(--primary-color);
 	background: transparent;
+	font-weight: 700;
 }
 
 .faq-accordion .accordion-item .accordion-button::after,
