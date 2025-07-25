@@ -42,6 +42,7 @@
 34. Responsive css
 -------------------------------------------------------------------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /************************************/
 /*** 	 01. Global Variables	  ***/
 /************************************/
@@ -234,7 +235,7 @@ body{
     overflow: hidden;
     z-index: 0;
 	text-transform: uppercase;
-	box-shadow: rgba(195, 10, 10, 0.37) 0px 13px 27px -5px, rgba(195, 10, 10, 0.32) 0px 8px 16px -8px;
+	
 }
 
 
@@ -425,6 +426,7 @@ body{
 	margin-bottom: 0;
 	cursor: none;
 	font-family:"Montserrat" ;
+	font-weight: 600;
 }
 
 .section-title h1 span,
@@ -2574,7 +2576,7 @@ letter-spacing: 6px;
     font-size: 22px;
     font-weight: 600;
     font-family: sans-serif;
-    font-style: italic;
+   
 }
 .post-item-content p{
 	margin-top: 10px !important;
@@ -7124,9 +7126,9 @@ width: 100%;
 
 .post-item-content h3{
 	    font-size: 23px;
-   
-	font-family: serif !important;
+   font-weight: 500;
   font-style: italic;
+ 
 }
 .how-work-step{
 	    visibility: visible;
