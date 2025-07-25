@@ -548,7 +548,7 @@ header.main-header .header-sticky.active{
 
 .main-menu ul li a:hover,
 .main-menu ul li a:focus{
-	color: #aea17e;
+	color: #aea17e !important;
 }
 
 .main-menu ul ul{
