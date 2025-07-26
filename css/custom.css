@@ -984,7 +984,7 @@ letter-spacing: 6px;
     position: absolute;
     bottom: -80px;
     right: -25px;
-    background-image: ;
+    /* background-image: ; */
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
@@ -1730,6 +1730,7 @@ letter-spacing: 6px;
 .how-work-step{
 	display: flex;
 	margin-bottom: 40px;
+	width: 100% !important;
 }
 
 .how-work-step:last-child{
@@ -1746,8 +1747,8 @@ letter-spacing: 6px;
 
 .how-work-step-content h3{
 	font-size: 20px;
-	margin-bottom: 10px;
 	color: #000000;
+	text-align: left;
 }
 
 .how-work-step-content p{
@@ -2520,7 +2521,7 @@ letter-spacing: 6px;
     position: absolute;
     top: -90px;
     right: -60px;
-    background-image: ;
+    /* background-image: ; */
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
@@ -7059,9 +7060,7 @@ width: 100%;
   background-position: center;
  
 }
-.how-work-step{
-	margin-top: 55px;
-}
+
 
 .how-work-step-no img{
 	border-radius: 10%;
@@ -7137,7 +7136,7 @@ width: 100%;
     animation-name: fadeInUp;
     BACKGROUND: #ffffff;
     WIDTH: 60%;
-    PADDING: 5PX;
+   
     padding-left: 18px;
     border-radius: 11px;
 	border: 1px solid rgb(214, 211, 211);
@@ -7246,4 +7245,63 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rg
 
 .word_map img{
 	object-fit: contain;
+}
+
+.who-we-are-section {
+    padding: 80px 0;
+    background-color: #fafafa;
+}
+
+.info-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Icon container */
+.info-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e0f2f1;
+    border-radius: 50%;
+}
+
+.info-icon i {
+    font-size: 32px;
+    color: #2e7d32;
+}
+
+/* Card content */
+.info-content h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #222;
+}
+
+.info-content p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Ensure same height */
+.h-100 {
+    height: 100%;
 }
