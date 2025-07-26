@@ -1733,12 +1733,9 @@ letter-spacing: 6px;
 	width: 100% !important;
 }
 
-.how-work-step:last-child{
-	margin-bottom: 0;
-}
-
 .how-work-step-no{
-	margin-right: 20px;
+display: flex;
+align-items: center;
 }
 
 .how-work-step-no h2{
@@ -1748,6 +1745,7 @@ letter-spacing: 6px;
 .how-work-step-content h3{
 	font-size: 20px;
 	color: #000000;
+	padding: 22px;
 	text-align: left;
 }
 
@@ -7136,7 +7134,7 @@ width: 100%;
     animation-name: fadeInUp;
     BACKGROUND: #ffffff;
     WIDTH: 60%;
-   
+   min-height: 93px;
     padding-left: 18px;
     border-radius: 11px;
 	border: 1px solid rgb(214, 211, 211);
