@@ -7276,20 +7276,20 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rg
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #e0f2f1;
+    background: #f4f4f4;
     border-radius: 50%;
 }
 
 .info-icon i {
-    font-size: 32px;
-    color: #2e7d32;
+    font-size: 48px;
+    color: #030303;
 }
 
 /* Card content */
 .info-content h3 {
     font-size: 20px;
     margin-bottom: 15px;
-    font-weight: 600;
+    font-weight: 700;
     color: #222;
 }
 
@@ -7302,4 +7302,14 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rg
 /* Ensure same height */
 .h-100 {
     height: 100%;
+}
+
+.info-card:hover .info-icon i {
+   
+    color: #d22026;
+}
+
+.info-card:hover .info-icon {
+       background: #d2202614;
+    
 }
