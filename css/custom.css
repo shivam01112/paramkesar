@@ -2704,9 +2704,12 @@ align-items: center;
 }
 
 .footer-links ul li{
-    color: var(--white-color);
-	line-height: 1.7em;
-	margin-bottom: 15px;
+   color: var(--white-color);
+    line-height: 1.7em;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: baseline;
+    gap: 13px;
 }
 
 .footer-links ul li:last-child{
@@ -2716,6 +2719,11 @@ align-items: center;
 .footer-links ul li a{
 	color: inherit;
 	transition: all 0.3s ease-in-out;
+	
+    display: flex
+;
+    align-items: baseline;
+    gap: 13px;
 }
 
 .footer-links ul li a:hover{
