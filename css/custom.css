@@ -7184,9 +7184,7 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rg
   padding: 40px;
 }
 
-.certification-logo:hover img {
- 
-}
+
 
 @keyframes scrollCerts {
   0% {
@@ -7312,4 +7310,247 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rg
 .info-card:hover .info-icon {
        background: #d2202614;
     
+}
+
+
+
+   .shilajit-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 50px 40px;
+            border-radius: 24px;
+            box-shadow: 
+                0 20px 40px rgba(0,0,0,0.1),
+                0 0 0 1px rgba(255,255,255,0.2);
+            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
+            transform: translateY(0);
+            transition: all 0.3s ease;
+        }
+
+        .shilajit-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #2d572c, #4a7c59, #2d572c);
+            border-radius: 24px 24px 0 0;
+        }
+
+        .shilajit-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 
+                0 30px 60px rgba(0,0,0,0.15),
+                0 0 0 1px rgba(255,255,255,0.3);
+        }
+
+        .shilajit-title {
+            font-weight: 800;
+            font-size: 36px;
+            margin-bottom: 25px;
+            color: #1a202c;
+            position: relative;
+            background: linear-gradient(135deg, #2d572c, #4a7c59);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .shilajit-description {
+            font-size: 17px;
+            line-height: 1.8;
+            color: #2d3748;
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .shilajit-description p {
+            margin-bottom: 18px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .shilajit-description p::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 12px;
+            width: 6px;
+            height: 6px;
+            background: linear-gradient(135deg, #2d572c, #4a7c59);
+            border-radius: 50%;
+            opacity: 0.7;
+        }
+
+        .shilajit-benefits-title {
+            font-weight: 700;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 25px;
+            color: #2d572c;
+            position: relative;
+            display: inline-block;
+        }
+
+        .shilajit-benefits-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #2d572c, #4a7c59);
+            border-radius: 2px;
+        }
+
+        .shilajit-benefits-list {
+            padding-left: 0;
+            list-style: none;
+            font-size: 16px;
+            color: #2d3748;
+        }
+
+        .shilajit-benefits-list li {
+            margin-bottom: 16px;
+            padding: 16px 20px;
+            background: rgba(45, 87, 44, 0.05);
+            border-radius: 12px;
+            border-left: 4px solid #2d572c;
+            position: relative;
+            transition: all 0.3s ease;
+            transform: translateX(0);
+        }
+
+        .shilajit-benefits-list li:hover {
+            background: rgba(45, 87, 44, 0.1);
+            transform: translateX(8px);
+            box-shadow: 0 4px 12px rgba(45, 87, 44, 0.15);
+        }
+
+        .shilajit-benefits-list li::before {
+            content: '✓';
+            position: absolute;
+            left: -12px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #2d572c, #4a7c59);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 12px;
+            box-shadow: 0 2px 6px rgba(45, 87, 44, 0.3);
+        }
+
+        @media (max-width: 768px) {
+            .shilajit-section {
+                padding: 30px 25px;
+                border-radius: 18px;
+            }
+            
+            .shilajit-title {
+                font-size: 28px;
+            }
+            
+            .shilajit-benefits-title {
+                font-size: 20px;
+            }
+            
+            .shilajit-description {
+                font-size: 16px;
+            }
+            
+            .shilajit-benefits-list li {
+                padding: 14px 18px;
+                margin-bottom: 12px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .shilajit-section {
+                padding: 25px 20px;
+            }
+            
+            .shilajit-title {
+                font-size: 24px;
+            }
+            
+            .shilajit-description p {
+                padding-left: 15px;
+            }
+        }
+
+
+		.custom-dropdown-wrapper {
+  position: relative;
+  text-align: end;
+}
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-dropdown-btn {
+  background-color:#d22026 ;
+  
+  color: #ffffff;
+  font-weight: 600;
+padding: 17px 35px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dropdown-btn:hover {
+  background-color: rgb(50, 60, 48);
+}
+
+.custom-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  z-index:999999 !important;
+  min-width: 220px;
+  padding: 10px 0;
+  margin-top: 6px;
+  background-color:rgb(61, 73, 58);
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.custom-dropdown-menu li {
+  list-style: none;
+}
+
+.custom-dropdown-item {
+  display: block;
+  padding: 10px 16px;
+  color: rgb(235, 235, 235);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+  text-align: start;
+}
+
+.custom-dropdown-item:hover {
+  background-color: rgba(61, 73, 58, 0.1);
+}
+
+.custom-dropdown:hover .custom-dropdown-menu {
+  display: block;
 }
